@@ -3,7 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Layout
+-----------------------------*/
 
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    background-color: #3e3e3e;
+}
+
+
+/* Barra de navegação
+-----------------------------*/
 nav.navbar-transparente {
 	padding: 15px 0px;
 	background: rgba(0,0,0,0.6);
@@ -28,7 +38,13 @@ nav.navbar-transparente {
 	margin: 12px 15px;
 }
 
-body {
-    font-family: Helvetica,Arial,sans-serif;
-    background-color: #3e3e3e;
-}
+
+
+
+
+
+
+
+
+
+
