@@ -6,9 +6,15 @@
 /* Layout
 -----------------------------*/
 
+html, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
 body {
     font-family: Helvetica,Arial,sans-serif;
     background-color: #3e3e3e;
+    
 }
 
 
@@ -31,12 +37,35 @@ nav.navbar-transparente {
     color: rgba(255,255,255,.5);
     border-color: rgba(255,255,255,0.5);
 }
+.carousel-control-next, .carousel-control-prev {
+	width: 5%;
+    height: 5%;
+    margin-top: 25%;
+}
+
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.carousel-item{
+    margin-top: 8.5%;
+    margin-left: 30%;
+    width: 40%;
+    height: 10%;
+}
 
 .divisor {
 	width: 1px;
 	background: white;
 	margin: 12px 15px;
 }
+
 
 
 
