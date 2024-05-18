@@ -71,8 +71,21 @@ nav.navbar-transparente {
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    color: #00BF63;
+    color: #fff;
 }
+
+.projeto:hover {
+    text-decoration: none;
+  }
+  
+  .projeto:hover h2,
+  .projeto:hover p {
+    color: #156eda;
+  }
+  
+  .projeto:hover img {
+    opacity: 1; 
+  }
 
 
 
