@@ -17,6 +17,10 @@ body {
     
 }
 
+section {
+    border-top: 4px solid #000000;
+    padding-bottom: 50px;
+  }
 
 /* Barra de navegação
 -----------------------------*/
@@ -139,9 +143,14 @@ nav.navbar-transparente {
   }
   
   .titulo-video {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 30px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -3%;
+    width: 30%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
   }
   
   .iframe-container {
