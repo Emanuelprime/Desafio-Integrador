@@ -66,6 +66,24 @@ nav.navbar-transparente {
 	margin: 12px 15px;
 }
 
+.titulo-container{
+   display: flex;
+   justify-content: center;
+}
+
+.titulo-secao {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background-color: #156eda;
+    width: 25%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
 .projeto {
     width: 33.33%;
     padding: 10px;
@@ -87,7 +105,26 @@ nav.navbar-transparente {
     opacity: 1; 
   }
 
+  .noticia {
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
 
+.noticia:hover {
+    text-decoration: none;
+  }
+  
+  .noticia:hover h2,
+  .noticia:hover p {
+    color: #156eda;
+  }
+  
+  .noticia:hover img {
+    opacity: 1; 
+  }
 
 
 
