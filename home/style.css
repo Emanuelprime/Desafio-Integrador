@@ -170,6 +170,30 @@ nav.navbar-transparente {
     border-radius: 10px;
   }
 
+  .testemunho-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .student-info {
+    margin-bottom: 10px;
+  }
+  
+  .student-name {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .testemunho-date {
+    font-size: 0.8em;
+    color: #666;
+  }
+  
+  .student-testimonial {
+    font-size: 0.9em;
+  }
+
 
 
 
