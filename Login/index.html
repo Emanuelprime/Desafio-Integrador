@@ -29,10 +29,12 @@
 
             <!--Container e Formulario Cadastrar-se-->
             <div class="form-container sign-in">
-                <form>
+                <form novalidate>
                     <h1>Entrar</h1>
-                    <input type="email" placeholder="Email" id="login-email">
-                    <input type="password" placeholder="Password" id="login-senha">
+                    <input type="email" placeholder="Email" id="login-email" required />
+                    <input type="password" placeholder="Password" id="login-senha" required />
+                    <span class="error" aria-live="polite"></span>
+                    
                     <a class="button" onclick="validarEmail()">Entrar</a> 
                     <a id="forgot-password" href="#">Esqueceu sua senha?</a>
                 </form>
