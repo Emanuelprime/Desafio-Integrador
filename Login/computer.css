@@ -106,6 +106,15 @@ img {
     height: 50%;
 }
 
+/*Colocando cores de erro*/
+.form-container input:invalid {
+    border: 2px solid rgba(255, 0, 0, 0.281);
+}
+
+.form-container input:valid {
+    border: 2px solid rgba(0, 128, 0, 0.281);
+}
+
 /*Inputs*/
 .container input {
     background-color: #e1e1e1;
@@ -118,9 +127,10 @@ img {
     outline: none;
 }
 
+/*
 .container input:hover {
     border: 1px solid #bbb;
-}
+} */
 
 /*Container Entrar e Cadastrar com transicao*/
 .form-container {

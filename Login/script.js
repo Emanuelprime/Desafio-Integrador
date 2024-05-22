@@ -15,12 +15,14 @@ loginBtn.addEventListener('click', () => {
 
 function validarEmail(){
     const email = document.getElementById("login-email").value;
+    const senha = document.getElementById("login-senha").value;
+
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
-    if (emailRegex.test(email)){
+    if (emailRegex.test(email) && senha !== ""){
         alert("Email valido! Voce sera redirecionado em breve.");
         window.location.href = "../home/index.html";
     } else {
-        alert("Email invalido!\nInsira um email correto para prosseguir.");
+        alert("Email e/ou senha incorretos!\nInsira os dados corretamente para prosseguir.");
     }
 }
