@@ -14,7 +14,13 @@ loginBtn.addEventListener('click', () => {
 })
 
 function validarEmail(){
-    const email = document.getElementById("login-email").value
-    const senha = document.getElementById("login-senha").value
-    return(alert(`Atencao! O email ${email} foi vazado no whatsapp e sua senha ${senha} tambem!\nVoce tem 01 minuto para postar suas bitcoins na carteira`));
+    const email = document.getElementById("login-email").value;
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+    if (emailRegex.test(email)){
+        alert("Email valido! Voce sera redirecionado em breve.");
+        window.location.href = "../home/index.html";
+    } else {
+        alert("Email invalido!\nInsira um email correto para prosseguir.");
+    }
 }
