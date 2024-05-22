@@ -31,7 +31,7 @@ nav.navbar-transparente {
 }
 
 .navbar-light .navbar-nav .nav-link {
-   color: #fff;
+	color: white;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -42,14 +42,62 @@ nav.navbar-transparente {
     color: rgba(255,255,255,.5);
     border-color: rgba(255,255,255,0.5);
 }
-
-.divisor {
-	width: 1px;
-	background: white;
-	margin: 12px 15px;
+.btn-secondary-transparent {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0; /* remove the gap so it doesn't close */
+.dropdown-menu {
+  background-color: #3e3e3e;
+  border: none;
 }
+
+.navbar-light .dropdown-menu a:hover {
+  background-color: #3e3e3e; 
+}
+
+.btn-secondary-transparent:focus {
+  box-shadow: none;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+/*Noticias
+-----------------------------*/
+.noticias {
+    background-color: #3e3e3e;
+    color: white;
+    padding: 50px 0;
+}
+.mt-large {
+    margin-top: 50px; 
+  }
+
+  /* Títulos
+-----------------------------*/
+.titulo-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    
+ }
+ 
+ .titulo-secao {
+     color: #fff;
+     font-size: 30px;
+     font-weight: 700;
+     margin-bottom: 20px;
+     width: 30%;
+     display: flex;
+     align-content: center;
+     justify-content: center;
+     
+ }

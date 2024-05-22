@@ -47,7 +47,17 @@
                             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="nav-link">Eventos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="nav-link">Sobre nós</a>
+                            <div class="dropdown">
+                                <a class="btn btn-secondary-transparent dropdown-toggle nav-link" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Curso
+                                </a>
+                              
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <li><a class="dropdown-item nav-link" href="#">Sobre-Nós</a></li>
+                                  <li><a class="dropdown-item nav-link" href="#">Contato</a></li>
+                                  <li><a class="dropdown-item nav-link" href="#">Galeria de Fotos</a></li>
+                                </ul>
+                              </div>
                         </li>
                         <li class="nav-item divisor"></li>
                         
@@ -60,6 +70,46 @@
         </nav>
     </header><!--Final cabeçalho-->
 
+        <div class="titulo-container">
+        <h1 class="titulo-secao">Principais Noticias</h1>
+        </div>
+        <section class="container noticias mt-large">
+          <div class="row">
+            <div class="col-md-6">
+                <a data-mdb-ripple-init href="https://www.tudocelular.com/mercado/noticias/n221537/steam-comprado-microsoft-16-bilhoes.html">
+                    <img
+                      alt="example"
+                      class="img-fluid rounded"
+                      src="./images/steam.jpg"
+                    />
+                  </a>
+            </div>
+            <div class="col-md-6">
+              <h1>Steam pode ser comprado pela Microsoft por US$ 16 bilhões</h1>
+              <p>A divisão de games da Microsoft foi posta em xeque recentemente quando a gigante de Redmond passou a lançar jogos exclusivos do Xbox em plataformas concorrentes e anunciou o fechamento de quatro estúdios da Bethesda, incluindo o responsável pelo aclamado Hi-Fi RUSH. De qualquer forma, após a recente aquisição bilionária da Activision Blizzard, um novo rumor indica que a Microsoft está pronta para iniciar mais uma fusão, desta vez, com o Steam.</p>
+            </div>
+          </div>
+        </section>
+      
+        <section class="container noticias mt-05">
+          <div class="row">
+            <div class="col-md-6">
+                <a data-mdb-ripple-init href="https://gamingera.biz/microsoft-fecha-bethesda-arkane-tango/">
+                    <img
+                      alt="example"
+                      class="img-fluid rounded"
+                      src="./images/hifi-rush.jpg"
+                    />
+                  </a>
+            </div>
+            <div class="col-md-6">
+              <h1>Xbox causa revolta com fechamento de estúdios da Bethesda, incluindo Arkane Austin e Tango</h1>
+              <p>O Xbox Game Studios começou essa terça-feira (7) com um corte massivo de estúdios, atingindo principalmente aqueles sob o “guarda-chuva” da Bethesda, incluindo o fechamento completo da estrutura da Arkane Austin, nos EUA, e do japonês Tango Gameworks. São estúdios responsáveis por franquias de grande sucesso, incluindo os premiados Deathloop e Hi-Fi Rush (esse último, aliás, acabou de ganhar uma versão no Playstation 5).</p>
+            </div>
+          </div>
+        </section>
+      
+        
     
 
     <!--JS Bootstrap-->
