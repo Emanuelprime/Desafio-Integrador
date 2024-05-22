@@ -41,6 +41,36 @@ nav.navbar-transparente {
     color: rgba(255,255,255,.5);
     border-color: rgba(255,255,255,0.5);
 }
+.btn-secondary-transparent {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  
+}
+
+.dropdown-menu {
+  background-color: #3e3e3e;
+  border: none;
+}
+
+.navbar-light .dropdown-menu a:hover {
+  background-color: #3e3e3e; 
+}
+
+.btn-secondary-transparent:focus {
+  box-shadow: none;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+
+
 .btn-custom {
 	color: white;
 	border-radius: 500px;
