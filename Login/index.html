@@ -6,6 +6,7 @@
 <link rel="stylesheet" media="screen and (max-width: 480px) " href="smartphone.css">
 <html lang="pt-br">
     <head>
+        <script src="script.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <!--Título do site-->
@@ -30,9 +31,9 @@
             <div class="form-container sign-in">
                 <form>
                     <h1>Entrar</h1>
-                    <input type="email" placeholder="Email">
-                    <input type="password" placeholder="Password">
-                    <a href="../Home/index.html" class="button">Entrar</a> 
+                    <input type="email" placeholder="Email" id="login-email">
+                    <input type="password" placeholder="Password" id="login-senha">
+                    <a href="../Home/index.html" class="button" onclick="validarEmail()">Entrar</a> 
                     <a id="forgot-password" href="#">Esqueceu sua senha?</a>
                 </form>
             </div>
@@ -55,6 +56,5 @@
                 </div>
             </div>
         </div>
-            <script src="script.js"></script>
     </body>
 </html>
