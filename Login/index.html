@@ -6,7 +6,6 @@
 <link rel="stylesheet" media="screen and (max-width: 480px) " href="smartphone.css">
 <html lang="pt-br">
     <head>
-        <script src="script.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <!--Título do site-->
@@ -19,23 +18,31 @@
 
             <!--Container e Formulario Criar Conta-->
             <div class="form-container sign-up">
-            <form>
+            <form id="form-signup">
                 <h1>Criar Conta</h1>
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <a href="../Home/index.html" class="button">Cadastrar</a> 
+                <input type="email" placeholder="Email" id="login-email" class="required" oninput="emailValidate()" maxlength="45"/>
+                <span class="span-required">Digite um e-mail válido</span>
+                
+                <input type="password" placeholder="Password" id="login-senha" class="required" oninput="passwordValidate()" minlength="8" maxlength=50/>
+                <span class="span-required">A senha deve ter no mínimo 8 caracteres</span>
+                
+                <button type="submit" class="button">Cadastrar</button>
             </form>
             </div>
 
-            <!--Container e Formulario Cadastrar-se-->
+            <!--Container e Formulario Entrar-->
             <div class="form-container sign-in">
-                <form novalidate>
+                <form  id="form-signin">
                     <h1>Entrar</h1>
-                    <input type="email" placeholder="Email" id="login-email" required />
-                    <input type="password" placeholder="Password" id="login-senha" required />
-                    <span class="error" aria-live="polite"></span>
-                    
-                    <a class="button" onclick="validarEmail()">Entrar</a> 
+
+                    <input type="email" placeholder="Email" id="login-email" class="required" oninput="emailValidate()" maxlength="45"/>
+                    <span class="span-required">Digite um e-mail válido</span>
+
+                    <input type="password" placeholder="Password" id="login-senha" class="required" oninput="passwordValidate()" minlength="8" maxlength=50/>
+                    <span class="span-required">A senha deve ter no mínimo 8 caracteres</span>
+
+                    <button type="submit" class="button">Entrar</button>
+
                     <a id="forgot-password" href="#">Esqueceu sua senha?</a>
                 </form>
             </div>
@@ -58,5 +65,6 @@
                 </div>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>

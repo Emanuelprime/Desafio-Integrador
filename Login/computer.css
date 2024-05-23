@@ -18,6 +18,13 @@ body {
     height: 100%;
 }
 
+.span-required {
+    width: 100%;
+    font-size: 0.8rem;
+    color: red;
+    display: none;
+}
+
 /*Logo*/
 img {
     width: 12%;
@@ -104,15 +111,6 @@ img {
     flex-direction: column;
     padding: 0 5%;
     height: 50%;
-}
-
-/*Colocando cores de erro*/
-.form-container input:invalid {
-    border: 2px solid rgba(255, 0, 0, 0.281);
-}
-
-.form-container input:valid {
-    border: 2px solid rgba(0, 128, 0, 0.281);
 }
 
 /*Inputs*/
