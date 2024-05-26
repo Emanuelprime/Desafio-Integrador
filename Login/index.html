@@ -20,33 +20,33 @@
             <div class="form-container sign-up">
             <form id="form-signup">
                 <h1>Criar Conta</h1>
-                <input type="email" placeholder="Email" id="login-email" class="required" oninput="emailValidate()" maxlength="45"/>
+                <input type="email" placeholder="Email" id="login-email" class="required" oninput="emailValidate(registerCampos, registerSpans)" maxlength="45"/>
                 <span class="span-required">Digite um e-mail válido</span>
                 
-                <input type="password" placeholder="Password" id="login-senha" class="required" oninput="passwordValidate()" minlength="8" maxlength=50/>
+                <input type="password" placeholder="Password" id="login-senha" class="required" oninput="passwordValidate(registerCampos, registerSpans)" minlength="8" maxlength=50/>
                 <span class="span-required">A senha deve ter no mínimo 8 caracteres</span>
                 
                 <button type="submit" class="button">Cadastrar</button>
             </form>
             </div>
-
+            
             <!--Container e Formulario Entrar-->
             <div class="form-container sign-in">
                 <form  id="form-signin">
                     <h1>Entrar</h1>
-
-                    <input type="email" placeholder="Email" id="login-email" class="required" oninput="emailValidate()" maxlength="45"/>
+                    
+                    <input type="email" placeholder="Email" id="login-email" class="required" oninput="emailValidate(loginCampos, loginSpans)" maxlength="45"/>
                     <span class="span-required">Digite um e-mail válido</span>
-
-                    <input type="password" placeholder="Password" id="login-senha" class="required" oninput="passwordValidate()" minlength="8" maxlength=50/>
+                    
+                    <input type="password" placeholder="Password" id="login-senha" class="required" oninput="passwordValidate(loginCampos, loginSpans)" minlength="8" maxlength=50/>
                     <span class="span-required">A senha deve ter no mínimo 8 caracteres</span>
-
+                    
                     <button type="submit" class="button">Entrar</button>
-
+                    
                     <a id="forgot-password" href="#">Esqueceu sua senha?</a>
                 </form>
             </div>
-                
+            
             <!--Container para transicao-->
             <div class="toggle-container">
                 <div class="toggle">
@@ -66,5 +66,6 @@
             </div>
         </div>
         <script src="script.js"></script>
+        <script src="validacao.js"></script>
     </body>
 </html>
