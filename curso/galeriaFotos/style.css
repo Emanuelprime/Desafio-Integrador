@@ -14,14 +14,10 @@ html, body, #home {
 body {
     font-family: poppins;
     background-color: #3e3e3e;
-    
 }
 
 
-section {
-    border-top: 4px solid #000000;
-    padding-bottom: 50px;
-  }
+
 
 /* Barra de navegação
 -----------------------------*/
@@ -83,9 +79,7 @@ nav.navbar-transparente {
     color: white;
     padding: 50px 0;
 }
-.mt-large {
-    margin-top: 50px; 
-  }
+
 
   /* Títulos
 -----------------------------*/
@@ -111,4 +105,8 @@ nav.navbar-transparente {
 .galeria-container img{
     width: 100%;
     height: 250px;
+}
+
+.card{
+  background-color: #21da3f;
 }
