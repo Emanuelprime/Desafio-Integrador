@@ -2,235 +2,260 @@
 <html lang="pt-br">
 
 <head>
-    
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Fonte google -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
   <link rel="stylesheet" type="text/css" href="./style.css">
-  
+
   <title>CampoGuide - Home</title>
   <link rel="icon" href="/home/images/logo-engsoftware.png">
 </head>
+
 <body data-bs-theme="light">
   <div class="form-check form-switch">
     <input class="form-check-input" type="checkbox" id="checkbox" onclick="setlightMode()">
-    <label class="form-check-label" for="checkbox">Dark Mode</label> 
+    <label class="form-check-label" for="checkbox">Dark Mode</label>
   </div>
- 
-    <header><!--Cabeçalho e barra de navegação-->
-        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
-            <div class="container">
-                <a href="index.html" class="navbar-brand">
-                    <img src="/home/images/logo-engsoftware.png" width="70">
+
+  <header><!--Cabeçalho e barra de navegação-->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="/home/images/logo-engsoftware.png" width="70">
+        </a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+          <i class="fas fa-bars text-white"></i>
+        </button>
+
+        <div id="nav-principal" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="/Noticias/index.html" class="nav-link">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a href="/eventos/index.html" class="nav-link">Eventos</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <a class="btn btn-secondary-transparent dropdown-toggle nav-link" href="#" role="button"
+                  id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  Curso
                 </a>
 
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-                    <i class="fas fa-bars text-white"></i>
-                </button>
-
-                <div id="nav-principal" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="/Noticias/index.html" class="nav-link">Noticias</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/eventos/index.html" class="nav-link">Eventos</a>
-                        </li>
-                        <li class="nav-item">
-                          <div class="dropdown">
-                            <a class="btn btn-secondary-transparent dropdown-toggle nav-link" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                              Curso
-                            </a>
-                          
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                              <li><a class="dropdown-item nav-link" href="/curso/sobre-nos/index.html">Sobre-Nós</a></li>
-                              <li><a class="dropdown-item nav-link" href="/curso/contato/index.html">Contato</a></li>
-                              <li><a class="dropdown-item nav-link" href="/curso/galeriaFotos/index.html">Galeria de Fotos</a></li>
-                            </ul>
-                          </div>
-                        </li>
-                        <li class="nav-item divisor"></li>
-                        
-                        <li class="nav-item">
-                            <a href="/Login/index.html" class="nav-link">Entrar</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header><!--Final cabeçalho-->
-
-    <!--Carousel-->
-    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <a href=""><img src="images/capa-site-1-1920x645.png" class="d-block w-100" alt="..." data-bs-interval="6000"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Título Placeholder 1</h5>
-              <p>Assunto da Eng.Soft.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <a href=""><img src="images/capa-site2-1920x645.png" class="d-block w-100" alt="..." data-bs-interval="6000"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Título Placeholder 2</h5>
-              <p>Assunto da Eng.Soft.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <a href=""><img src="images/banner-site_mensalidade_flex-1920x645.png" class="d-block w-100" alt="..." data-bs-interval="6000"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Título Placeholder 3</h5>
-              <p>Assunto da Eng.Soft.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div><!--Final Carousel-->
-
-      
-      <section class="projetos"><!--começo projetos-->
-        <br>
-        <div class="projeto-container"> 
-          <div class="titulo-container">
-            <h1 class="titulo-secao">Principais Projetos</h1>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <a href="#" class="projeto">
-                <img src="./images/blackboi.png" class="img-fluid">
-                <h2 class="titulo-projeto">Projeto Blackboi</h2>
-                <p class="paragrafo-projeto">Este é o parágrafo do Projeto 1.</p>
-              </a>
-            </div>
-            <div class="col-md-4">
-              <a href="#" class="projeto">
-                <img src="./images/veio.png" class="img-fluid">
-                <h2 class="titulo-projeto">Projeto Veio</h2>
-                <p class="paragrafo-projeto">Este é o parágrafo do Projeto 2.</p>
-              </a>
-            </div>
-            <div class="col-md-4">
-              <a href="#" class="projeto">
-                <img src="./images/zoio.jpg" class="img-fluid">
-                <h2 class="titulo-projeto">Projeto Zoio</h2>
-                <p class="paragrafo-projeto">Este é o parágrafo do Projeto 3.</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section><!--Final projetos-->
-    
-      <section class="noticias">
-        <br> <!--começo noticias-->
-        <div class="noticia-container">
-          <div class="titulo-container">
-            <h1 class="titulo-secao">Principais Noticias</h1>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <a href="#" class="noticia">
-                <img src="./images/paia.jpg" class="img-fluid">
-                <h2 class="titulo-noticia">Título da Notícia 1</h2>
-                <p class="paragrafo-noticia">Resumo da Notícia 1.</p>
-              </a>
-            </div>
-            <div class="col-md-4">
-              <a href="#" class="noticia">
-                <img src="./images/faleibestera.png" class="img-fluid">
-                <h2 class="titulo-noticia">Título da Notícia 2</h2>
-                <p class="paragrafo-noticia">Resumo da Notícia 2.</p>
-              </a>
-            </div>
-            <div class="col-md-4">
-              <a href="#" class="noticia">
-                <img src="./images/lecat-james.png" class="img-fluid">
-                <h2 class="titulo-noticia">Título da Notícia 3</h2>
-                <p class="paragrafo-noticia">Resumo da Notícia 3.</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section><!--Final noticias-->
-
-      <section class="video"><!--Começo Sobre nós-->
-        <div class="container">
-          <div class="titulo-container">
-            <h1 class="titulo-video">Sobre Nós</h1>
-          </div>
-          <div class="iframe-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/CY_7spFlIHQ?si=y_j4mt7TEEdLJH1L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div>
-        </div>
-      </section><!--Final Sobre nós-->
-
-      <section class="testemunho-container"> <!--Começo Testemunho-->
-        <div class="titulo-container">
-          <h2 class="titulo-secao">Testemunhos</h2>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="testemunho">
-              <img class="img-fluid rounded-circle" src="./images/oscar.png" alt="Estudante 1">
-              <div class="student-info">
-                <p class="student-name">Oscar</p>
-                <p class="testemunho">05/06/24</p>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item nav-link" href="/curso/sobre-nos/index.html">Sobre-Nós</a></li>
+                  <li><a class="dropdown-item nav-link" href="/curso/contato/index.html">Contato</a></li>
+                  <li><a class="dropdown-item nav-link" href="/curso/galeriaFotos/index.html">Galeria de Fotos</a></li>
+                  <li><a class="dropdown-item nav-link" href="#" onclick="window.location.href='https://guarapuava.camporeal.edu.br/content/uploads/2024/05/Ensalamento_-Graduacao-NOTURNO-de-06.05-a-04.06.2024-FIXO.pdf';">Ensalamento</a></li>
+                </ul>
               </div>
-              <p class="student-testemunho">"Conteúdo do Testemunho 1..."</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="testemunho">
-              <img class="img-fluid rounded-circle" src="./images/Derivaldo.png" alt="Estudante 2">
-              <div class="student-info">
-                <p class="student-name">Derivaldo</p>
-                <p class="testemunho">27/09/24</p>
-              </div>
-              <p class="student-testemunho">"Conteúdo do Testemunho 2..."</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="testemunho">
-              <img class="img-fluid rounded-circle" src="./images/Robson.png" alt="Estudante 3">
-              <div class="student-info">
-                <p class="student-name">Robson</p>
-                <p class="testemunho">12/04/24</p>
-              </div>
-              <p class="student-testemunho">"Conteúdo do Testemunho 3..."</p>
-            </div>
-          </div>
-          <!--Final Testemunho-->
-        </div>
-      </section>
+            </li>
+            <li class="nav-item divisor"></li>
 
-    <!--JS Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-      <script src="app.js"></script>
+            <li class="nav-item">
+              <a href="/Login/index.html" class="nav-link">Entrar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header><!--Final cabeçalho-->
+
+  <!--Carousel-->
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href=""><img src="images/capa-site-1-1920x645.png" class="d-block w-100" alt="..."
+            data-bs-interval="6000"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Título Placeholder 1</h5>
+          <p>Assunto da Eng.Soft.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href=""><img src="images/capa-site2-1920x645.png" class="d-block w-100" alt="..."
+            data-bs-interval="6000"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Título Placeholder 2</h5>
+          <p>Assunto da Eng.Soft.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href=""><img src="images/banner-site_mensalidade_flex-1920x645.png" class="d-block w-100" alt="..."
+            data-bs-interval="6000"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Título Placeholder 3</h5>
+          <p>Assunto da Eng.Soft.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div><!--Final Carousel-->
+
+
+  <section class="projetos"><!--começo projetos-->
+    <br>
+    <div class="projeto-container">
+      <div class="titulo-container">
+        <h1 class="titulo-secao">Principais Projetos</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="#" class="projeto">
+            <img src="./images/blackboi.png" class="img-fluid">
+            <h2 class="titulo-projeto">Projeto Blackboi</h2>
+            <p class="paragrafo-projeto">Este é o parágrafo do Projeto 1.</p>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="projeto">
+            <img src="./images/veio.png" class="img-fluid">
+            <h2 class="titulo-projeto">Projeto Veio</h2>
+            <p class="paragrafo-projeto">Este é o parágrafo do Projeto 2.</p>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="projeto">
+            <img src="./images/zoio.jpg" class="img-fluid">
+            <h2 class="titulo-projeto">Projeto Zoio</h2>
+            <p class="paragrafo-projeto">Este é o parágrafo do Projeto 3.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section><!--Final projetos-->
+
+  <section class="noticias">
+    <br> <!--começo noticias-->
+    <div class="noticia-container">
+      <div class="titulo-container">
+        <h1 class="titulo-secao">Principais Noticias</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="#" class="noticia">
+            <img src="./images/paia.jpg" class="img-fluid">
+            <h2 class="titulo-noticia">Título da Notícia 1</h2>
+            <p class="paragrafo-noticia">Resumo da Notícia 1.</p>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="noticia">
+            <img src="./images/faleibestera.png" class="img-fluid">
+            <h2 class="titulo-noticia">Título da Notícia 2</h2>
+            <p class="paragrafo-noticia">Resumo da Notícia 2.</p>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="noticia">
+            <img src="./images/lecat-james.png" class="img-fluid">
+            <h2 class="titulo-noticia">Título da Notícia 3</h2>
+            <p class="paragrafo-noticia">Resumo da Notícia 3.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section><!--Final noticias-->
+
+  <section class="video"><!--Começo Sobre nós-->
+    <div class="container">
+      <div class="titulo-container">
+        <h1 class="titulo-video">Sobre Nós</h1>
+      </div>
+      <div class="iframe-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CY_7spFlIHQ?si=y_j4mt7TEEdLJH1L"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section><!--Final Sobre nós-->
+
+  <section class="testemunho-container"> <!--Começo Testemunho-->
+    <div class="titulo-container">
+      <h2 class="titulo-secao">Testemunhos</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="testemunho">
+          <img class="img-fluid rounded-circle" src="./images/oscar.png" alt="Estudante 1">
+          <div class="student-info">
+            <p class="student-name">Oscar</p>
+            <p class="testemunho">05/06/24</p>
+          </div>
+          <p class="student-testemunho">"Conteúdo do Testemunho 1..."</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testemunho">
+          <img class="img-fluid rounded-circle" src="./images/Derivaldo.png" alt="Estudante 2">
+          <div class="student-info">
+            <p class="student-name">Derivaldo</p>
+            <p class="testemunho">27/09/24</p>
+          </div>
+          <p class="student-testemunho">"Conteúdo do Testemunho 2..."</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testemunho">
+          <img class="img-fluid rounded-circle" src="./images/Robson.png" alt="Estudante 3">
+          <div class="student-info">
+            <p class="student-name">Robson</p>
+            <p class="testemunho">12/04/24</p>
+          </div>
+          <p class="student-testemunho">"Conteúdo do Testemunho 3..."</p>
+        </div>
+      </div>
+      <!--Final Testemunho-->
+    </div>
+  </section>
+
+  <!--JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+  <script>
+    function downloadEnsalamentoFiles() {
+      const link1 = 'https://guarapuava.camporeal.edu.br/content/uploads/2024/03/ESOFT-12.03.pdf';
+      const link2 = 'https://guarapuava.camporeal.edu.br/content/uploads/2024/05/Ensalamento_-Graduacao-NOTURNO-de-06.05-a-04.06.2024-FIXO.pdf';
+
+      window.open(link1, '_blank');
+      window.open(link2, '_blank');
+    }
+  </script>
+
 </body>
+
 </html>
