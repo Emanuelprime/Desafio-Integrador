@@ -247,15 +247,18 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
   <script src="app.js"></script>
+  <!--acessibilidade-->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
   <script>
-    function downloadEnsalamentoFiles() {
-      const link1 = 'https://guarapuava.camporeal.edu.br/content/uploads/2024/03/ESOFT-12.03.pdf';
-      const link2 = 'https://guarapuava.camporeal.edu.br/content/uploads/2024/05/Ensalamento_-Graduacao-NOTURNO-de-06.05-a-04.06.2024-FIXO.pdf';
-
-      window.open(link1, '_blank');
-      window.open(link2, '_blank');
-    }
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
+
 
 </body>
 
