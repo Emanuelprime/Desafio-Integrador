@@ -76,6 +76,32 @@ nav.navbar-transparente {
     pointer-events: none;
 }
 
+.titulo-container{
+	display: flex;
+	justify-content: center;
+ }
+ 
+ .titulo-secao {
+	 color: #fff;
+	 font-size: 30px;
+	 font-weight: 700;
+	 margin-bottom: 20px;
+	 width: 30%;
+	 display: flex;
+	 align-content: center;
+	 justify-content: center;
+	 
+ }
+ .jumbotron {
+	margin-top: 8.5%;
+	background-image: url('./images/soft.jpeg');
+	background-size: 100% 100%; 
+	color: #fff;
+  }
+
+
+
+
 /* Rodapé
 -----------------------------*/
 footer {

@@ -22,7 +22,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="/Noticias/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>CampoGuide - Noticias</title>
     <link rel="icon" href="/home/images/logo-engsoftware.png">
@@ -83,62 +83,153 @@
         </nav>
     </header><!--Final cabeçalho-->
 
-
-
-
-
-
-
-
-
-
-
-    <footer>
-        <div class=container>
-          <div class="row">
-            <div class="col-md-2">
-              <img src="./images/logo-engsoftware.png" width="142">
+    <!--Inicio banner-->
+    <div class="jumbotron bg-image">
+      <h1 class="display-4">ENGENHARIA DE SOFTWARE</h1>
+      <p class="lead">O curso de Engenharia de Software é voltado ao desenvolvimento de produtos de software, melhoria do desempenho de processos, gerenciamento de projetos, criação de negócios inovadores em tecnologia da informação.</p>
+      <hr class="my-4">
+      <p>Se você tiver alguma dúvida, entre em contato conosco.</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="/curso/contato/index.html" role="button">Saiba mais</a>
+      </p>
+      </div>
+    <!--Final banner-->
+    <div class="sobre-container"> <!--inicio sobre-->
+        <div class="row">
+            <div class="titulo-container col-md-12">
+                <h1 class="titulo-secao text-center mt-5">Sobre o Curso de Engenharia de Software</h1>
             </div>
-            <div class="col-md-2">
-              <h4>company</h4>
-              <ul class="navbar-nav">
-                <li><a href="/curso/sobre-nos/index.html">Sobre-Nós</a></li>
-                <li><a href="/Noticias/index.html">Noticias</a></li>
-                <li><a href="/eventos/index.html">Eventos</a></li>
-                <li><a href="/curso/contato/">Contato</a></li>
-              </ul>
-            </div>
-            <div class="col-md-2">
-              <h4>comunidades</h4>
-              <ul class="navbar-nav">
-                <li><a href="">Artistas</a></li>
-                <li><a href="">Desenvolvedores</a></li>
-                <li><a href="">Marcas</a></li>
-              </ul>
-            </div>
-            <div class="col-md-2">
-              <h4>Links uteis</h4>
-              <ul class="navbar-nav">
-                <li><a href="https://guarapuava.camporeal.edu.br/content/uploads/2024/05/Ensalamento_-Graduacao-NOTURNO-de-06.05-a-04.06.2024-FIXO.pdf">Ensalamento</a></li>
-                <li><a href="https://guarapuava.camporeal.edu.br/content/uploads/2024/03/ESOFT-12.03.pdf">Horário de Aula</a></li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <ul>
-                <li>
-                  <a href=""><img src="./images/facebook.png"></a>
-                </li>
-                <li>
-                  <a href=""><img src="./images/twitter.png"></a>
-                </li>
-                <li>
-                  <a href=""><img src="./images/instagram.png"></a>
+        </div>
+
+
+        <div class="nav-container">
+            <div class="row">
+                <div class="col-md-3">
+                    <ul class="nav nav-pills flex-column" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pq-tab" data-toggle="tab" href="#pq" role="tab"
+                                aria-controls="pq" aria-selected="true">POR QUE FAZER ENGENHARIA DE SOFTWARE?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="oq-tab" data-toggle="tab" href="#oq" role="tab" aria-controls="oq"
+                                aria-selected="false">O QUE VOU FAZER?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="onde-tab" data-toggle="tab" href="#onde" role="tab"
+                                aria-controls="onde" aria-selected="false">ONDE VOU TRABALHAR?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="conceito-tab" data-toggle="tab" href="#conceito" role="tab"
+                                aria-controls="conceito" aria-selected="false">CONCEITO 5</a>
                         </li>
                     </ul>
                 </div>
+                <div class="col-md-9">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="pq" role="tabpanel" aria-labelledby="home-tab">
+                            <p class="text-white">O Brasil é o oitavo país no ranking mundial de desenvolvedores, fabricantes e
+                                distribuidores
+                                de softwares, movimentando cerca de 27 bilhões de dólares apenas com o mercado interno.
+
+                                Esse cenário mantém o setor aquecido para os engenheiros. O uso massivo de celulares e
+                                tablets pela população brasileira também eleva a busca por profissionais aptos a lidar
+                                com
+                                esses sistemas.</p>
+                        </div>
+                        <div class="tab-pane fade" id="oq" role="tabpanel" aria-labelledby="profile-tab">
+                            <p class="text-white">O Engenheiro de Software projeta soluções em tecnologia da informação, identifica
+                                problemas e
+                                oportunidades, cria aplicativos, jogos, plataformas digitais, e sistemas específicos, de
+                                forma de elevar o desempenho e a produtividade.</p>
+                        </div>
+                        <div class="tab-pane fade" id="onde" role="tabpanel" aria-labelledby="contact-tab">
+                            <p class="text-white">O profissional de Engenharia de Software pode atuar na área de software e na de hardware,
+                                incluindo robótica. Além de micro e pequenas que também são oportunidades de trabalho,
+                                visto
+                                que possuem maior probabilidade de inovar e até mesmo trazer tecnologias disruptivas
+                                para o
+                                mercado.</p>
+                        </div>
+                        <div class="tab-pane fade" id="conceito" role="tabpanel" aria-labelledby="contact-tab">
+                            <div class="conceito-image">
+                                <img src="./images/conceito5.jpg" alt="Conceito 5" width="60%" height="550px">
+                              </div>
+                          </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
+        </div><!--Final sobre-->
+
+
+
+
+
+
+
+
+
+        <footer>
+            <div class=container>
+              <div class="row">
+                <div class="col-md-2">
+                  <img src="./images/logo-engsoftware.png" width="142">
+                </div>
+                <div class="col-md-2">
+                  <h4>company</h4>
+                  <ul class="navbar-nav">
+                    <li><a href="/curso/sobre-nos/index.html">Sobre-Nós</a></li>
+                    <li><a href="/Noticias/index.html">Noticias</a></li>
+                    <li><a href="/eventos/index.html">Eventos</a></li>
+                    <li><a href="/curso/contato/">Contato</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-2">
+                  <h4>comunidades</h4>
+                  <ul class="navbar-nav">
+                    <li><a href="">Artistas</a></li>
+                    <li><a href="">Desenvolvedores</a></li>
+                    <li><a href="">Marcas</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-2">
+                  <h4>Links uteis</h4>
+                  <ul class="navbar-nav">
+                    <li><a href="https://guarapuava.camporeal.edu.br/content/uploads/2024/05/Ensalamento_-Graduacao-NOTURNO-de-06.05-a-04.06.2024-FIXO.pdf">Ensalamento</a></li>
+                    <li><a href="https://guarapuava.camporeal.edu.br/content/uploads/2024/03/ESOFT-12.03.pdf">Horário de Aula</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <ul>
+                    <li>
+                      <a href=""><img src="./images/facebook.png"></a>
+                    </li>
+                    <li>
+                      <a href=""><img src="./images/twitter.png"></a>
+                    </li>
+                    <li>
+                      <a href=""><img src="./images/instagram.png"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Inicializa o conteúdo da primeira opção
+            $('.tab-pane:first').show();
+
+            // Altera o conteúdo ao clicar nas opções
+            $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+                $('.tab-pane').hide();
+                var target = $(e.target).attr("href");
+                $(target).show();
+            });
+        });
+    </script>
 
     <!--acessibilidade-->
     <div vw class="enabled">
