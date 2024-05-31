@@ -99,7 +99,16 @@ nav.navbar-transparente {
 	color: #fff;
   }
 
+#conceito img{
+	border-radius: 10px;
+	margin-left: 6%;
+}
 
+.tab-content p{
+	font-size: 100%;
+	width: 60%;
+	margin-left: 6%;
+}
 
 
 /* Rodapé
