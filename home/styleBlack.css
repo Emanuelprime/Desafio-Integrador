@@ -14,7 +14,7 @@ html, body, #home {
 body {
     font-family: poppins;
     background-color: #3e3e3e;
-    
+    color: #fff;
 }
 
 section {
@@ -275,5 +275,7 @@ footer ul li {
 	margin: 0 5px;
 }
 
-
+#toggle-button{
+  margin-top: 10%;
+}
 

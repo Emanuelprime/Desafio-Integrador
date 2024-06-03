@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Layout
+-----------------------------*/
+
+html, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+    font-family: poppins;
+    background-color: #fff;
+    color: #3e3e3e;
+}
+
+section {
+    border-top: 4px solid #fff;
+    padding-bottom: 50px;
+  }
+
+/* Barra de navegação
+-----------------------------*/
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(255, 254, 254, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #3e3e3e;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+.btn-secondary-transparent {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  
+}
+
+.dropdown-menu {
+  background-color: #fff;
+  border: none;
+}
+
+.navbar-light .dropdown-menu a:hover {
+  background-color: #fff; 
+}
+
+.btn-secondary-transparent:focus {
+  box-shadow: none;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+.form-check{
+  margin-top: 10%;
+}
+
+.lightmode{
+  background-color: #3e3e3e;
+  color: #fff;
+}
+
+.darkmode .container{
+  background-color: #fff;
+}
+
+.form-check{
+  cursor: pointer;
+
+}
+
+.btn-custom {
+	color: rgb(0, 0, 0);
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+/* Carousel
+-----------------------------*/
+.carousel-item{
+    margin-top: 8.5%;
+    margin-left: 0%;
+    width: 100%;
+    height: 10%;
+}
+
+.divisor {
+	width: 1px;
+	background: rgb(0, 0, 0);
+	margin: 12px 15px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	width: 5%;
+    height: 5%;
+    margin-top: 25%;
+}
+/* Títulos
+-----------------------------*/
+.titulo-container{
+   display: flex;
+   justify-content: center;
+}
+
+.titulo-secao {
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    width: 30%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+/* Principais projetos
+-----------------------------*/
+.projeto {
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.projeto:hover {
+    text-decoration: none;
+  }
+  
+  .projeto:hover h2,
+  .projeto:hover p {
+    color: #156eda;
+  }
+  
+  .projeto:hover img {
+    opacity: 1; 
+  }
+
+  /* Principais Noticias
+-----------------------------*/
+  .noticia {
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.noticia:hover {
+    text-decoration: none;
+  }
+  
+  .noticia:hover h2,
+  .noticia:hover p {
+    color: #156eda;
+  }
+  
+  .noticia:hover img {
+    opacity: 1; 
+  }
+/* Sobre nós
+-----------------------------*/
+  .video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+  }
+  
+  .titulo-video {
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -3%;
+    width: 30%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+  }
+  
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #000;
+    border-radius: 10px;
+  }
+
+  .testemunho-item {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .student-info {
+    margin-bottom: 10px;
+  }
+  
+  .student-name {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .testemunho-date {
+    font-size: 0.8em;
+    color: #666;
+  }
+  
+  .student-testimonial {
+    font-size: 0.9em;
+  }
+
+
+
+/* Rodapé
+-----------------------------*/
+footer {
+	background: #fff;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: #000;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 0 5px;
+}
+
+#toggle-button{
+    margin-top: 10%;
+  }
+

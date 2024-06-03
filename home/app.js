@@ -1,23 +1,10 @@
-if (localStorage.getItem('theme')== 'light'){
-    setlightMode();
-    if(document.getElementById('checkbox').checked){
-        localStorage.setItem('checkbox', true)
+document.getElementById('toggle-button').addEventListener('click', function(){
+    var stylesheet = document.getElementById('stylesheet');
+    if (stylesheet.getAttribute('href') === 'styleBlack.css') {
+        stylesheet.getAttribute('href', 'styleWhite.css') ;
+    } else {
+        stylesheet.setAttribute('href', 'styleBlack.css');
     }
-}
-
-    function setlightMode(){
-        let isDark = document.body.toggle('lightmode');
-
-        if (isDark){
-            setlightMode.checked = true;
-            localStorage.setItem('theme', 'light');
-            document.getElementById('checkbox').setAttribute('checkbox', 'checked');
-        }else{
-            setlightMode.checked = true;
-            localStorage.removeItem('theme', 'light');
-        }
-    }
-
-
+});
 
   
