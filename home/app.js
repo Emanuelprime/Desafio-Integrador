@@ -1,10 +1,8 @@
-document.getElementById('toggle-button').addEventListener('click', function(){
+document.getElementById('toggle-button').addEventListener('click', function() {
     var stylesheet = document.getElementById('stylesheet');
-    if (stylesheet.getAttribute('href') === 'styleBlack.css') {
-        stylesheet.getAttribute('href', 'styleWhite.css') ;
+    if (stylesheet.getAttribute('href') === 'style1.css') {
+        stylesheet.setAttribute('href', 'style2.css');
     } else {
-        stylesheet.setAttribute('href', 'styleBlack.css');
+        stylesheet.setAttribute('href', 'style1.css');
     }
 });
-
-  
