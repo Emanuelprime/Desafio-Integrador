@@ -24,6 +24,21 @@ section {
 
 /* Barra de navegação
 -----------------------------*/
+
+#toggle-button {
+  background-color: #333; /* Cor de fundo do botão em DarkMode */
+  color: #fff; /* Cor do texto do botão em DarkMode */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 90%;
+}
+
+#toggle-button:hover {
+  background-color: #444; /* Cor de fundo do botão em hover em DarkMode */
+}
+
 nav.navbar-transparente {
 	padding: 15px 0px;
 	background: rgba(0,0,0,0.6);
@@ -99,7 +114,6 @@ nav.navbar-transparente {
 /* Carousel
 -----------------------------*/
 .carousel-item{
-    margin-top: 8.5%;
     margin-left: 0%;
     width: 100%;
     height: 10%;
@@ -114,7 +128,7 @@ nav.navbar-transparente {
 .carousel-control-next, .carousel-control-prev {
 	width: 5%;
     height: 5%;
-    margin-top: 25%;
+    margin-top: 18%;
 }
 /* Títulos
 -----------------------------*/
@@ -142,6 +156,13 @@ nav.navbar-transparente {
     text-align: center;
     text-decoration: none;
     color: #fff;
+}
+
+.projeto-container {
+  background-color: #525151; /* cor de fundo cinza */
+  padding: 20px; /* adiciona um padding para criar um espaço entre o fundo e o conteúdo */
+  border-radius: 10px; /* adiciona um efeito de borda arredondada */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* adiciona uma sombra para dar profundidade */
 }
 
 .projetos img{
