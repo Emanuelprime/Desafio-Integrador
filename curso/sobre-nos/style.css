@@ -81,6 +81,27 @@ nav.navbar-transparente {
 	justify-content: center;
  }
  
+/* Carousel
+-----------------------------*/
+.carousel-item{
+    margin-top: 8.5%;
+    margin-left: 0%;
+    width: 100%;
+    height: 10%;
+}
+
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	width: 5%;
+    height: 5%;
+    margin-top: 25%;
+}
+
  .titulo-secao {
 	 color: #fff;
 	 font-size: 30px;
