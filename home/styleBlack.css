@@ -144,6 +144,11 @@ nav.navbar-transparente {
     color: #fff;
 }
 
+.projetos img{
+  width: 885px;
+  height: 400px;
+}
+
 .projeto:hover {
     text-decoration: none;
   }
@@ -165,6 +170,11 @@ nav.navbar-transparente {
     text-align: center;
     text-decoration: none;
     color: #fff;
+}
+
+.noticias img{
+  width: 885px;
+  height: 400px;
 }
 
 .noticia:hover {
@@ -222,6 +232,10 @@ nav.navbar-transparente {
     border-radius: 5px;
   }
   
+  .testemunho-container img{
+    height: 300px;
+  }
+
   .student-info {
     margin-bottom: 10px;
   }
