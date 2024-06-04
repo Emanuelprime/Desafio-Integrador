@@ -55,6 +55,38 @@ nav.navbar-transparente {
   
 }
 
+.titulo-secao {
+  text-align: center; /* Centralizar título */
+}
+
+/* Eventos
+-----------------------------*/
+
+.card {
+  width: 110%; /* Aumentar largura do card */
+  height: 86%; /* Aumentar altura do card */
+  
+}
+
+.card-img-top {
+  height: 150px; /* Aumentar altura da imagem do card */
+  object-fit: cover; /* Manter proporção da imagem */
+}
+
+.card-body {
+  padding: 20px; /* Adicionar padding ao corpo do card */
+}
+
+.card-text {
+  font-size: 18px; /* Aumentar tamanho do texto do card */
+}
+
+.separador {
+  border-left: 1px solid #ccc; /* Adicionar borda entre os eventos passados e futuros */
+  height: 100%; /* Aumentar altura da borda */
+  margin: 20px; /* Adicionar margem à borda */
+}
+
 .separador {
   width: 100%;
   height: 1px;
@@ -81,7 +113,8 @@ nav.navbar-transparente {
 .dropdown>.dropdown-toggle:active {
     pointer-events: none;
 }
-
+/* titulo
+-----------------------------*/
 .titulo-container{
     display: flex;
     justify-content: center;
