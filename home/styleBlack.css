@@ -192,7 +192,12 @@ nav.navbar-transparente {
     text-decoration: none;
     color: #fff;
 }
-
+.noticia-container {
+  background-color: #525151; /* cor de fundo cinza */
+  padding: 20px; /* adiciona um padding para criar um espaço entre o fundo e o conteúdo */
+  border-radius: 10px; /* adiciona um efeito de borda arredondada */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* adiciona uma sombra para dar profundidade */
+}
 .noticias img{
   width: 885px;
   height: 400px;
@@ -255,6 +260,13 @@ nav.navbar-transparente {
   
   .testemunho-container img{
     height: 300px;
+  }
+
+  .testemunho-container {
+    background-color: #525151; /* cor de fundo cinza */
+    padding: 20px; /* adiciona um padding para criar um espaço entre o fundo e o conteúdo */
+    border-radius: 10px; /* adiciona um efeito de borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* adiciona uma sombra para dar profundidade */
   }
 
   .student-info {
