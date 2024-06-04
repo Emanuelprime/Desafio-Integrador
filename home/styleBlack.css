@@ -326,3 +326,36 @@ footer ul li {
   margin-top: 10%;
 }
 
+.botao-acessibilidade {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.botao-acessibilidade {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.botao-acessibilidade:hover {
+  background-color: #444;
+}
+
+.botao-acessibilidade:active {
+  background-color: #555;
+}
+
+.botao-aumentar-fonte {
+  margin-right: 10px;
+}
+
+.botao-diminuir-fonte {
+  margin-left: 10px;
+}
