@@ -83,7 +83,7 @@ nav.navbar-transparente {
   padding: 20px; /* adiciona um padding para criar um espaço entre o fundo e o conteúdo */
   border-radius: 10px; /* adiciona um efeito de borda arredondada */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* adiciona uma sombra para dar profundidade */
-  
+  color: #fff;
 }
 
 .mt-large {
