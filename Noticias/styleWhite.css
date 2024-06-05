@@ -13,7 +13,7 @@ html, body, #home {
 
 body {
     font-family: poppins;
-    background-color: #3e3e3e;
+    background-color: #fff;
     
 }
 
@@ -79,9 +79,10 @@ nav.navbar-transparente {
 /*Noticias
 -----------------------------*/
 .noticias {
-    background-color: #3e3e3e;
-    color: white;
-    padding: 50px 0;
+  background-color: #4497ec; /* cor de fundo cinza */
+  padding: 20px; /* adiciona um padding para criar um espaço entre o fundo e o conteúdo */
+  border-radius: 10px; /* adiciona um efeito de borda arredondada */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* adiciona uma sombra para dar profundidade */
 }
 .mt-large {
     margin-top: 50px; 
@@ -101,7 +102,7 @@ nav.navbar-transparente {
  }
  
  .titulo-secao {
-     color: #fff;
+     color: #000;
      font-size: 30px;
      font-weight: 700;
      margin-bottom: 20px;

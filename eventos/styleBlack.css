@@ -62,14 +62,21 @@ nav.navbar-transparente {
 /* Eventos
 -----------------------------*/
 
+.card-container {
+  background-color: #525151; /* cor de fundo cinza */
+  padding: 20px; /* adiciona um padding para criar um espaço entre o fundo e o conteúdo */
+  border-radius: 10px; /* adiciona um efeito de borda arredondada */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* adiciona uma sombra para dar profundidade */
+}
+
 .card {
   width: 110%; /* Aumentar largura do card */
-  height: 86%; /* Aumentar altura do card */
+  height: 89%; /* Aumentar altura do card */
   
 }
 
 .card-img-top {
-  height: 150px; /* Aumentar altura da imagem do card */
+  height: 50%; /* Aumentar altura da imagem do card */
   object-fit: cover; /* Manter proporção da imagem */
 }
 
