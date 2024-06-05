@@ -381,3 +381,10 @@ footer ul li {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
+@media screen and (max-width: 425px){
+  .botoes-grupo{
+    display: flex;
+   justify-content: flex-end;
+   margin-top: 26%;
+  } 
+}
