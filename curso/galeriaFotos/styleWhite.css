@@ -13,7 +13,7 @@ html, body, #home {
 
 body {
     font-family: poppins;
-    background-color: #3e3e3e;
+    background-color: #fff;
 }
 
 
@@ -75,8 +75,8 @@ nav.navbar-transparente {
 /*Noticias
 -----------------------------*/
 .noticias {
-    background-color: #3e3e3e;
-    color: white;
+    background-color: #fff;
+    color: #000;
     padding: 50px 0;
 }
 
@@ -91,7 +91,7 @@ nav.navbar-transparente {
  }
  
  .titulo-secao {
-     color: #fff;
+     color: #000;
      font-size: 30px;
      font-weight: 700;
      margin-bottom: 20px;
@@ -105,6 +105,13 @@ nav.navbar-transparente {
 .galeria-container img{
     width: 100%;
     height: 450px;
+}
+
+.galeria-container {
+  background-color: #4497ec; /* cor de fundo cinza */
+  padding: 20px; /* adiciona um padding para criar um espaço entre o fundo e o conteúdo */
+  border-radius: 10px; /* adiciona um efeito de borda arredondada */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* adiciona uma sombra para dar profundidade */
 }
 
 .card{
@@ -142,4 +149,65 @@ footer ul {
 footer ul li {
 	float: right;
 	margin: 0 5px;
+}
+
+#botao-aumentar-fonte {
+  background-color: #4CAF50;
+  background-image: linear-gradient(to bottom, #4CAF50, #3e8e41);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#botao-aumentar-fonte:hover {
+  background-color: #3e8e41;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+#botao-aumentar-fonte:active {
+  background-color: #2e6c31;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+#botao-diminuir-fonte {
+  background-color: #FF9800;
+  background-image: linear-gradient(to bottom, #FF9800, #FFC107);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#botao-diminuir-fonte:hover {
+  background-color: #FFC107;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+#botao-diminuir-fonte:active {
+  background-color: #FFA07A;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+#botao-aumentar-fonte {
+  margin-left: 89%;
+
+}
+#toggle-button{
+  margin-top: 10%;
+}
+#toggle-button {
+  background-color: #333; /* Cor de fundo do botão em DarkMode */
+  color: #fff; /* Cor do texto do botão em DarkMode */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 90%;
 }

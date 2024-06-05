@@ -55,44 +55,6 @@ nav.navbar-transparente {
   
 }
 
-.titulo-secao {
-  text-align: center; /* Centralizar título */
-}
-
-/* Eventos
------------------------------*/
-
-.card {
-  width: 110%; /* Aumentar largura do card */
-  height: 86%; /* Aumentar altura do card */
-  
-}
-
-.card-img-top {
-  height: 150px; /* Aumentar altura da imagem do card */
-  object-fit: cover; /* Manter proporção da imagem */
-}
-
-.card-body {
-  padding: 20px; /* Adicionar padding ao corpo do card */
-}
-
-.card-text {
-  font-size: 18px; /* Aumentar tamanho do texto do card */
-}
-
-.separador {
-  border-left: 1px solid #ccc; /* Adicionar borda entre os eventos passados e futuros */
-  height: 100%; /* Aumentar altura da borda */
-  margin: 20px; /* Adicionar margem à borda */
-}
-
-.separador {
-  width: 100%;
-  height: 1px;
-  background-color: #ccc;
-  margin: 20px 0;
-}
 .dropdown-menu {
   background-color: #3e3e3e;
   border: none;
@@ -113,7 +75,23 @@ nav.navbar-transparente {
 .dropdown>.dropdown-toggle:active {
     pointer-events: none;
 }
-/* titulo
+
+/*Noticias
+-----------------------------*/
+.noticias {
+    background-color: #3e3e3e;
+    color: white;
+    padding: 50px 0;
+}
+.mt-large {
+    margin-top: 50px; 
+  }
+
+.noticias img{
+  height: 100%;
+}
+
+  /* Títulos
 -----------------------------*/
 .titulo-container{
     display: flex;
@@ -133,6 +111,13 @@ nav.navbar-transparente {
      justify-content: center;
      
  }
+
+.galeria-container img{
+    width: 100%;
+    height: 250px;
+}
+
+
 
 /* Rodapé
 -----------------------------*/
@@ -165,4 +150,65 @@ footer ul {
 footer ul li {
 	float: right;
 	margin: 0 5px;
+}
+
+#botao-aumentar-fonte {
+  background-color: #4CAF50;
+  background-image: linear-gradient(to bottom, #4CAF50, #3e8e41);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#botao-aumentar-fonte:hover {
+  background-color: #3e8e41;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+#botao-aumentar-fonte:active {
+  background-color: #2e6c31;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+#botao-diminuir-fonte {
+  background-color: #FF9800;
+  background-image: linear-gradient(to bottom, #FF9800, #FFC107);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#botao-diminuir-fonte:hover {
+  background-color: #FFC107;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+#botao-diminuir-fonte:active {
+  background-color: #FFA07A;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+#botao-aumentar-fonte {
+  margin-left: 89%;
+
+}
+#toggle-button{
+  margin-top: 10%;
+}
+#toggle-button {
+  background-color: #333; /* Cor de fundo do botão em DarkMode */
+  color: #fff; /* Cor do texto do botão em DarkMode */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 90%;
 }
