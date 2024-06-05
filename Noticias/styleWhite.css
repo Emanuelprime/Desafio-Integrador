@@ -153,6 +153,16 @@ footer ul li {
 	margin: 0 5px;
 }
 
+.botoes-grupo{
+  display: flex;
+  margin-top: 6%;
+  margin-right: 5%;
+}
+
+.botoes-grupo button{
+  margin: 0 5px;
+}
+
 #botao-aumentar-fonte {
   background-color: #4CAF50;
   background-image: linear-gradient(to bottom, #4CAF50, #3e8e41);
@@ -197,13 +207,6 @@ footer ul li {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
-#botao-aumentar-fonte {
-  margin-left: 89%;
-
-}
-#toggle-button{
-  margin-top: 10%;
-}
 
 #toggle-button {
   background-color: #333; /* Cor de fundo do botão em DarkMode */
