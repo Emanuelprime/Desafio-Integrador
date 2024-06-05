@@ -86,6 +86,10 @@ nav.navbar-transparente {
     transition: background 0.4s, color 0.4s;
     padding: 10px 20px;
 }
+
+.text{
+    color: #fff;
+}
 /* Carousel
 -----------------------------*/
 .carousel-item{
@@ -135,8 +139,15 @@ nav.navbar-transparente {
     justify-content: center;
 }
 
+.sobre-container {
+    background-color: #525151; /* cor de fundo cinza */
+    padding: 20px; /* adiciona um padding para criar um espaço entre o fundo e o conteúdo */
+    border-radius: 10px; /* adiciona um efeito de borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* adiciona uma sombra para dar profundidade */
+  }
+
 .jumbotron {
-    margin-top: 8.5%;
+    margin-top: 1%;
     background-image: url('./images/soft.jpeg');
     background-size: cover;
     color: #fff;

@@ -12,7 +12,8 @@ html, body, #home {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #3e3e3e;
+    background-color: #fff;
+    color: #3e3e3e;
 }
 
 section {
@@ -86,6 +87,11 @@ nav.navbar-transparente {
     transition: background 0.4s, color 0.4s;
     padding: 10px 20px;
 }
+
+.text{
+    color: #000;
+}
+
 /* Carousel
 -----------------------------*/
 .carousel-item{
@@ -97,8 +103,8 @@ nav.navbar-transparente {
 }
 
 .carousel-item h5{
-	color: #FFF;
-	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	color: #000;
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
 .carousel-item img {
@@ -125,7 +131,7 @@ nav.navbar-transparente {
 }
 
 .titulo-secao {
-    color: #fff;
+    color: #000;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -134,9 +140,15 @@ nav.navbar-transparente {
     align-content: center;
     justify-content: center;
 }
+.sobre-container {
+    background-color: #4497ec; /* cor de fundo cinza */
+    padding: 20px; /* adiciona um padding para criar um espaço entre o fundo e o conteúdo */
+    border-radius: 10px; /* adiciona um efeito de borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* adiciona uma sombra para dar profundidade */
+  }
 
 .jumbotron {
-    margin-top: 8.5%;
+    margin-top: 1%;
     background-image: url('./images/soft.jpeg');
     background-size: cover;
     color: #fff;
