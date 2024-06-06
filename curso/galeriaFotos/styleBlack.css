@@ -108,7 +108,10 @@ nav.navbar-transparente {
 }
 
 .card{
-  background-color: #3c6dd6;
+  display: flex;
+  text-align: center;
+  background-color: #3e3e3e;
+  color: rgb(237, 234, 234);
 }
 
 .galeria-container {

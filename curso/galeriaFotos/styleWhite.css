@@ -115,7 +115,9 @@ nav.navbar-transparente {
 }
 
 .card{
-  background-color: #3c6dd6;
+  display: flex;
+  text-align: center;
+  background-color: #fff;
 }
 
 /* Rodapé
